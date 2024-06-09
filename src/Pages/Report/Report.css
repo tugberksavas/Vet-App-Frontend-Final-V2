@@ -1,0 +1,129 @@
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: #5d278a;
+  margin-bottom: 5px;
+}
+
+.report-newreport,
+.report-updatereport, 
+.search-bar,
+.list {
+  background-color: #F5F5F5; 
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.report-newreport input,
+.report-updatereport input,
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #4d4c7d32;  
+  border-radius: 5px;
+  color: #363062;
+  margin-left: 5px;
+}
+
+::placeholder {
+  color: #4d4c7d73;
+  padding: 10px;
+}
+
+.report-newreport select,
+.report-updatereport select,
+.search-bar select {
+  padding: 8px;
+  border: 1px solid #4d4c7d32;
+  border-radius: 5px;
+  color: #363062;
+  width: 20%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.report-newreport button,
+.report-updatereport button,
+.search-bar button {
+  padding: 10px 20px;
+  background-color: purple; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.reset{
+  padding: 10px 20px;
+  background-color: #F99417; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:20px
+}
+
+.reset:hover {
+  background-color: #FFD166;
+  transition: background-color 0.7s ease;
+}
+
+.report-newreport button:hover,
+.report-updatereport button:hover,
+.search-bar button:hover {
+  background-color: #F99417; 
+}
+
+.list {
+  margin-top: 15px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+
+.list div {
+  background-color: #fff; 
+  margin-bottom: 15px;
+  border: 1px solid #4d4c7d32;  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.list div span {
+  cursor: pointer;
+}
+
+.list div span:hover {
+  color: #76ABAE; 
+}
+
+.table-container {
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #dddddd75;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table th {
+  background-color: #86858d37;
+  color: #863d9c
+}
+
+

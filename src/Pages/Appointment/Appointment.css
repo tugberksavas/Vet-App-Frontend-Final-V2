@@ -1,0 +1,137 @@
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: #050505;
+  margin-bottom: 5px;
+}
+
+h1 {
+  padding: 15px;
+}
+
+.appointment-newappointment,
+.appointment-updateappointment ,
+.search-bar,
+.list {
+  
+  background-color: #F5F5F5; 
+  padding: 8px; 
+}
+
+.appointment-newappointment input,
+.appointment-updateappointment input, 
+.search-bar input{
+  padding: 8px;
+  border: 2px solid #4d4c7d32;  
+  color: #363062;
+}
+
+::placeholder {
+  color: #4d4c7d73;
+  padding: 2px;
+}
+
+.appointment-newappointment select,
+.appointment-updateappointment select,
+.search-bar select {
+  padding: 8px;
+  border: 1px solid #4d4c7d32;
+  border-radius: 5px;
+  color: #363062;
+  width: 20%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.appointment-newappointment button,
+.appointment-updateappointment button,
+.search-bar button{
+  padding: 10px 20px;
+  background-color: purple; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.reset{
+  padding: 10px 20px;
+  background-color: #F99417; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom:20px
+}
+
+.reset:hover {
+  background-color: purple;
+  transition: background-color 0.6s ease;
+}
+
+.appointment-newappointment button:hover,
+.appointment-updateappointment button:hover,
+.search-bar button:hover {
+  background-color: rgb(85, 15, 85); 
+}
+
+.search-bar-appointment{
+  background-color: #F5F5F5;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.list {
+  margin-top: 15px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.list div {
+  background-color: #fff; 
+  margin-bottom: 10px;
+  border: 1px solid #4d4c7d32;  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.list div span {
+  cursor: pointer;
+}
+
+.list div span:hover {
+  color: #76ABAE; 
+}
+
+
+
+.table-container {
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #dddddd75; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table th {
+  background-color: #36306237;
+  color: #363062e3;
+}
+

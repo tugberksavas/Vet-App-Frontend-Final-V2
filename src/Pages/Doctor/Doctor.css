@@ -1,0 +1,109 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: #363062;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.doctor-newdoctor,
+.doctor-updatedoctor ,
+.search-bar,
+.list {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.doctor-newdoctor input,
+.doctor-updatedoctor input, 
+.search-bar input{
+  padding: 8px;
+  border: 1px solid #4d4c7d32;  
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+  border-radius: 5px;
+  color: #363062;
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: #4d4c7d73;
+  padding: 2px;
+}
+
+.doctor-newdoctor button,
+.doctor-updatedoctor button,
+.search-bar button {
+  padding: 10px 20px;
+  background-color: purple; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.doctor-newdoctor button:hover,
+.doctor-updatedoctor button:hover {
+  background-color: #F17C16; 
+}
+
+.list {
+  margin-top: 15px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.list div {
+  background-color: #fff; 
+  margin-bottom: 10px;
+  border: 1px solid #4d4c7d32;  
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.list div span {
+  cursor: pointer;
+}
+
+.list div span:hover {
+  color: #76ABAE; 
+}
+
+/* -------------------------------- */
+.table-container {
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd75;
+  text-decoration: underline;
+  text-decoration-color: #36306237;
+  color: #363062;
+}
+
+table th {
+  background-color: #36306237;
+  color: #363062e3;
+}
+
+

@@ -1,0 +1,137 @@
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: #7466e2;
+  margin-bottom: 5px;
+}
+
+.available-date-h1 {
+  color: #5d18ad;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.availabledate-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.available-h3 {
+  color: #363062;
+  margin-bottom: 10px;
+}
+
+.availabledate-newawailabledate,
+.availabledate-updateavailabledate,
+.search-bar{
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.availabledate-newawailabledate input,
+.availabledate-updateavailabledate input,
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #4d4c7d32;
+  border-radius: 5px;
+  color: #363062;
+}
+
+.availabledate-newawailabledate select,
+.availabledate-updateavailabledate select,
+.search-bar select {
+  padding: 8px;
+  border: 1px solid #4d4c7d32;
+  border-radius: 5px;
+  color: #363062;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.availabledate-newawailabledate button,
+.availabledate-updateavailabledate button,
+.search-bar button,
+.reset-available button {
+  padding: 10px 20px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.reset-available{
+  align-items: center;
+  padding-top: 70px;
+}
+
+.availabledate-newawailabledate button:hover,
+.availabledate-updateavailabledate button:hover,
+.search-bar button:hover,
+.reset-available button:hover {
+  background-color: purple;
+}
+.reset {
+  padding: 10px 20px;
+  background-color: #76ABAE;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.reset:hover {
+  background-color: #363062;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.list div {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border: 1px solid #4d4c7d32;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list div span {
+  cursor: pointer;
+}
+
+.list div span:hover {
+  color: #76ABAE;
+}
+
+.table-container {
+  max-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd75;
+}
+
+table th {
+  background-color: #36306237;
+  color: #363062e3;
+}
