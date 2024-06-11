@@ -25,6 +25,7 @@ Hayvan Yönetimi
 Proje,
 React Router kullanılarak Single Page App olarak yapılmıştır. Her sayfanın CRUD operasyonları ilgili sayfanın içinde tamamlanmıştır. CRUD operasyonları başarısız olursa kullanıcı bilgilendirilmiştir. (Modal ile) 1400px e göre tasarlanmıştır. Responsive değildir.
 
+
 Vet App' de yapılabilecek işlemler:
 Müşteri kaydetme
 
